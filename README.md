@@ -4,7 +4,7 @@
 
 # Overview
 
-<img src="assets/Overview.png" alt="Overview" style="zoom:30%;">
+<img src="assets/Overview.png" alt="Overview" style="zoom:30%;" width=30%>
 
 # Dataset
 
@@ -35,4 +35,4 @@ python run_model.py -d Sepsis -s Human
 
 # Result
 
-<img src="assets/Numsim.png" alt="Overview" style="zoom:30%;">
+<img src="assets/Numsim.png" alt="Numsim" style="zoom:30%;">
