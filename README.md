@@ -4,7 +4,7 @@
 
 # Overview
 
-<img src="assets/Overview.png" alt="Overview" style="zoom:30%;" width=30%>
+<img src="assets/Overview.png" alt="Overview" style="zoom:30%;">
 
 # Dataset
 
