@@ -1,4 +1,4 @@
-# GOTCP: An Optimal Transport method for disease critical point detection
+# GGOT: An Optimal Transport method for disease critical point detection
 
 
 
@@ -15,7 +15,7 @@
 | [COAD](https://portal.gdc.cancer.gov/projects/TCGA-COAD)     |              | Home sapiens | 7      | Chronic progressive malignant disease |
 | [GSE2565](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE2565) | lung injury  | Mus musculus | 9      | Acute progressive noncritical illness |
 | [GSE154918](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154918) | Septic shock | Home sapiens | 3      | Acute progressive critical illness    |
-| Sepsis                                                       | Sepsis       | Home sapiens | 7      | Acute progressive critical illness    |
+| XJTUSepsis                                                   | XJTUSepsis       | Home sapiens | 7      | Acute progressive critical illness    |
 
 # Constructing the model 
 
