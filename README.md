@@ -63,10 +63,14 @@ GGOT
 ├──PPI
 │  ├──Human
 │  │  ├──ppi_database.npy
-│  │  ├──...
+│  │  ├──map_gene_protein.csv
+│  │  ├──map_gene_protein_full.csv
+│  │  ├──symbol2id.csv
 │  ├──Mus
 │  │  ├──ppi_database.npy
-│  │  ├──...
+│  │  ├──map_gene_protein.csv
+│  │  ├──map_gene_protein_full.csv
+│  │  ├──symbol2id.csv
 ├──......
 ```
 
@@ -100,8 +104,12 @@ python run_model.py -d GSE154918 -s Human
 
 ## Making the visualization
 
-    ``    python visualization.py -d GSE2565    ``
+```bash
+python visualization.py -d GSE2565
+```
 
 ## Results (example on simulation dataset)
 
 <img src="assets/Numsim.png" alt="Overview" style="zoom:25%;">
+
+If you have any problems about this repository, please send email to hwb0856@stu.xjtu.edu.cn for discussion
