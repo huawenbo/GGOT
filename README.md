@@ -16,7 +16,7 @@ GGOT uses Gaussian graphical model, incorporating the gene interaction network, 
 
 ## Datasets
 
-Clicking on the name of the corresponding dataset will redirect you to the website to download the corresponding dataset. The dataset of **XJTUSepsis** need to contact hwb0856@stu.xjtu.edu.cn to get access.
+Clicking on the name of the corresponding dataset will redirect you to the website to download the corresponding dataset. The dataset of **XJTUSepsis** needs to contact hwb0856@stu.xjtu.edu.cn to get access.
 
 | Dataset                                                                | Description               | Species      | stages | Type of disease                       |
 | ---------------------------------------------------------------------- | ------------------------- | ------------ | ------ | ------------------------------------- |
@@ -35,15 +35,15 @@ Clicking on the name of the corresponding dataset will redirect you to the websi
 pip install -r requirements.txt
 ```
 
-2 Download the pre-processed Protein-Protein Interaction (PPI) Networks of the Human and Mouse Genomes into "`PPI/`" . We constuct the PPI networks using [string](https://string-db.org) database.
+2 Download the pre-processed Protein-Protein Interaction (PPI) Networks of the Human and Mouse Genomes into "`PPI/`". We construct the PPI networks using [string](https://string-db.org) database.
 
-PPI Networks of two species:[[GGOT_PPI](https://drive.google.com/file/d/1-DyWv20mInYLvRTWN3iGT1QjaY6683Ro/view?usp=sharing)]
+PPI Networks of two species:[[GGOT_PPI](https://drive.google.com/file/d/1Gxp5MpbQQ3l4wRtxBOYSaGVxdYS6e7Xy/view?usp=sharing)]
 
 3 Download the RNA-seq dataset of different diseases into "`data/source/`".
 
 Raw datasets: [[GGOT_datasets](https://drive.google.com/file/d/1c0SqU3dq22lE5qNlW7wbKG5UqoHKS83_/view?usp=sharing)]
 
-**Make sure your data file tree used similar with the following.**
+**Make sure your data file tree is similar to the following.**
 
 ```
 GGOT
@@ -74,28 +74,28 @@ GGOT
 ├──......
 ```
 
-## Running GGOT for different type datasets
+## Running GGOT for datasets with different types
 
-- run model for chronic progressive non-critical disease, GSE48452
+- running model for the chronic progressive non-critical disease, GSE48452
 
 ```bash
 python run_model.py -d GSE48452 -s Human
 ```
 
-- run modelfor acute progressive non-critical disease, GSE2565
+- running model for the acute progressive non-critical disease, GSE2565
 
 ```bash
 python run_model.py -d GSE2565 -s Mus
 ```
 
-- run modelfor chronic progressive critical disease, LUAD and COAD
+- running model for the chronic progressive critical disease, LUAD, COAD
 
 ```bash
 python run_model.py -d LUAD -s Human
 python run_model.py -d COAD -s Human
 ```
 
-- run modelfor acute progressive critical disease, XJTUSepsis, GSE154918
+- running model for the acute progressive critical disease, XJTUSepsis, GSE154918
 
 ```bash
 python run_model.py -d XJTUSepsis -s Human
@@ -112,4 +112,4 @@ python visualization.py -d GSE2565
 
 <img src="assets/Numsim.png" alt="Overview" style="zoom:25%;">
 
-If you have any problems about this repository, please send email to hwb0856@stu.xjtu.edu.cn for discussion
+If you have any problems with this repository, please send emails to hwb0856@stu.xjtu.edu.cn for discussions.
