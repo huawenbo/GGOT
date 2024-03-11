@@ -60,6 +60,7 @@ GGOT
 │  │  │  ├──LUAD.csv
 │  │  │  ├──group.csv
 │  │  ├──......
+│  ├──......
 ├──PPI
 │  ├──Human
 │  │  ├──ppi_database.npy
