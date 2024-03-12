@@ -35,7 +35,7 @@ Clicking on the name of the corresponding dataset will redirect you to the websi
 pip install -r requirements.txt
 ```
 
-2 Download the pre-processed Protein-Protein Interaction (PPI) Networks of the Human and Mouse Genomes into "`PPI/`". We construct the PPI networks using [string](https://string-db.org) database.
+2 Download the pre-processed Protein-Protein Interaction (PPI) Networks of the Human and Mouse Genomes into "`PPI/`". We construct the PPI networks using [STRING](https://string-db.org) database.
 
 PPI Networks of two species:[[GGOT_PPI](https://drive.google.com/file/d/1Gxp5MpbQQ3l4wRtxBOYSaGVxdYS6e7Xy/view?usp=sharing)]
 
