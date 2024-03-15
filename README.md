@@ -29,10 +29,10 @@ Clicking on the name of the corresponding dataset will redirect you to the websi
 
 ## Prerequisites
 
-1 Install required packages
+1 Create your environment and install required packages
 
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yaml -n yourenv
 ```
 
 2 Download the pre-processed Protein-Protein Interaction (PPI) Networks of the Human and Mouse Genomes into "`PPI/`". We construct the PPI networks using [STRING](https://string-db.org) database.
