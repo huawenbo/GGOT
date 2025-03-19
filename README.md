@@ -4,9 +4,7 @@ This repository contains our proposed methods *Gaussian Graphical Optimal Transp
 
 Code for the paper:
 
-> Wenbo Hua, Ruixia Cui, Heran Yang, Jingyao Zhang, Chang Liu, Jian Sun. "Detecting Disease Critical Transitions Using Gaussian Graphical Optimal Transport Embedded With Protein Interaction Networks"
-
-<!-- [[arxiv]](https://arxiv.org/abs/1907.03907) -->
+> Wenbo Hua, Ruixia Cui, Heran Yang, Jingyao Zhang, Chang Liu, Jian Sun. "Uncovering critical transitions and molecule mechanisms in disease progressions using Gaussian graphical optimal transport" *Communications Biology* 2025.
 
 ## Overview
 
