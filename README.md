@@ -1,4 +1,6 @@
-# GGOT: Detecting Disease Critical Transitions Using Gaussian Graphical Optimal Transport Embedded With Protein Interaction Networks.
+# GGOT: Uncovering critical transitions and molecule mechanisms in disease progressions using Gaussian graphical optimal transport
+
+Detecting Disease Critical Transitions Using Gaussian Graphical Optimal Transport Embedded With Protein Interaction Networks.
 
 This repository contains our proposed methods *Gaussian Graphical Optimal Transport* (GGOT) for detecting critical transitions and identifying trigger molecules of diseases, the corresponding pre-processed diseases datasets from TCGA and GEO databases, and pre-processed Protein-Protein Interaction (PPI) Networks of the Human and Mouse Genomes.
 
